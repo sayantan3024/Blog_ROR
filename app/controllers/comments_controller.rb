@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-
+	#this line is for authentication
 	http_basic_authenticate_with name: "rony", password: "rony", only: :destroy
 
   def create
